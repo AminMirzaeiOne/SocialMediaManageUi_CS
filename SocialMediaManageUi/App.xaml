@@ -156,6 +156,14 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="socialCard" TargetType="Border">
+            <Setter Property="Background" Value="#FDFDFD" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Margin" Value="8 20 8 0" />
+            <Setter Property="BorderBrush" Value="#dbdbdb" />
+            <Setter Property="BorderThickness" Value="1" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
