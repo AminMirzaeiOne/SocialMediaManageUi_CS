@@ -209,6 +209,13 @@
             <Setter Property="Foreground" Value="#808080" />
         </Style>
 
+        <Style x:Key="socialCardBottomText" TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="#474747" />
+            <Setter Property="Margin" Value="0 5 0 0" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
