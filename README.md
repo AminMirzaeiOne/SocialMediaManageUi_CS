@@ -20,3 +20,4 @@ Designing the user interface of a social media management program in WPF<br />
 <h2>📷 Screenshots</h2>
 <img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/1fbf58b1-dcb4-4000-9eae-e4919d03996e">
 <img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/4b83a4e8-96be-4e25-acdd-48fdc5d2fc73">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/2abd650c-a1ba-4cb5-a807-28d732c34d75">
