@@ -179,6 +179,13 @@
             <Setter Property="Height" Value="30" />
         </Style>
 
+        <Style x:Key="socialCardTitle" TargetType="TextBlock">
+            <Setter Property="Margin" Value="10 0 0 0" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
