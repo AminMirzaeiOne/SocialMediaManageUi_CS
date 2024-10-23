@@ -186,6 +186,12 @@
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
 
+        <Style x:Key="socialCardCounterTitle" TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="48" />
+            <Setter Property="Margin" Value="0 50 0 5" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
