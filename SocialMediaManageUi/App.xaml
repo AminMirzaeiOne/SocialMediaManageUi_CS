@@ -141,6 +141,21 @@
             <Setter Property="FontSize" Value="14" />
         </Style>
 
+        <Style x:Key="iconBar" TargetType="fa:ImageAwesome">
+            <Setter Property="Foreground" Value="#787878" />
+            <Setter Property="Width" Value="18" />
+            <Setter Property="Height" Value="18" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="1.1" ScaleY="1.1"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
 
     </Application.Resources>
 </Application>
