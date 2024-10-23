@@ -93,6 +93,16 @@
             <Setter Property="Opacity" Value="0.8" />
         </Style>
 
+        <Style x:Key="infoCardIcon" TargetType="fa:ImageAwesome">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Foreground" Value="#e0e0e0" />
+            <Setter Property="Margin" Value="0 0 20 0" />
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Width" Value="40" />
+            <Setter Property="Height" Value="40" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
