@@ -198,6 +198,11 @@
             <Setter Property="Foreground" Value="#808080" />
         </Style>
 
+        <Style TargetType="Separator">
+            <Setter Property="Background" Value="#c4c4c4" />
+            <Setter Property="Margin" Value="0 60 0 15" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
