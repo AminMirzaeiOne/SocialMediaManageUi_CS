@@ -164,6 +164,11 @@
             <Setter Property="BorderThickness" Value="1" />
         </Style>
 
+        <Style x:Key="socialCardIconBar" TargetType="fa:ImageAwesome" BasedOn="{StaticResource iconBar}">
+            <Setter Property="Margin" Value="0 15 20 15" />
+            <Setter Property="HorizontalAlignment" Value="Right" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
