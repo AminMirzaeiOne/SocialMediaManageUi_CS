@@ -2,8 +2,20 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:SocialMediaManageUi"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="menuTitle" TargetType="TextBlock">
+            <Setter Property="Margin" Value="0 0 25 0" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Opacity" Value="0.7" />
+            <Setter Property="Foreground" Value="#FFFFFF" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="1" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
     </Application.Resources>
 </Application>
