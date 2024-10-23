@@ -70,6 +70,13 @@
             <Setter Property="Margin" Value="0 7 0 0" />
         </Style>
 
+        <Style x:Key="infoCard" TargetType="Border">
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Background" Value="#931B1B" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Margin" Value="8 0 8 0" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
