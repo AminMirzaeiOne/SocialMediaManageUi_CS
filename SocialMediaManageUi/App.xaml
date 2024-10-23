@@ -77,6 +77,11 @@
             <Setter Property="Margin" Value="8 0 8 0" />
         </Style>
 
+        <Style x:Key="infoCardStack" TargetType="StackPanel">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="20 0 0 0" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
