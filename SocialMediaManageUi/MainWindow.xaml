@@ -23,5 +23,24 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!--Grid Backgrounds-->
+        <Grid Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.4*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="10 10 0 0" MouseDown="Border_MouseDown">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#B92120" Offset="0" />
+                        <GradientStop Color="#B81F1E" Offset="1" />
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <Border Grid.Row="1" CornerRadius="0 0 10 10" Background="#eaeaea"/>
+        </Grid>
+
     </Grid>
 </Window>
