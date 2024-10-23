@@ -169,6 +169,11 @@
             <Setter Property="HorizontalAlignment" Value="Right" />
         </Style>
 
+        <Style x:Key="socialCardStack" TargetType="StackPanel">
+            <Setter Property="Orientation" Value="Horizontal" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
