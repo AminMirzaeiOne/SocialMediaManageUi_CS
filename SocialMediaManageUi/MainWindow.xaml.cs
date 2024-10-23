@@ -31,5 +31,9 @@ namespace SocialMediaManageUi
                 this.DragMove();
         }
 
+        private void imgExit_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }
