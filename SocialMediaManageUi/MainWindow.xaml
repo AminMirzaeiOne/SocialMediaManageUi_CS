@@ -42,5 +42,21 @@
             <Border Grid.Row="1" CornerRadius="0 0 10 10" Background="#eaeaea"/>
         </Grid>
 
+        <!--Top Menu-->
+        <Grid Grid.ColumnSpan="2" Grid.Row="0" Margin="50 30 50 40">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="Analytics" Opacity="1" Style="{StaticResource menuTitle}" />
+                <TextBlock Text="Leaderboard" Style="{StaticResource menuTitle}" />
+                <TextBlock Text="Realtime" Style="{StaticResource menuTitle}" />
+                <TextBlock Text="Trending" Style="{StaticResource menuTitle}" />
+                <TextBlock Text="Favorite" Style="{StaticResource menuTitle}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Image Source="/Images/mini.png" Margin="0 0 15 0" Style="{StaticResource iconApp}"/>
+                <Image Source="/Images/close.png" Style="{StaticResource iconApp}"/>
+            </StackPanel>
+        </Grid>
+
     </Grid>
 </Window>
