@@ -35,5 +35,10 @@ namespace SocialMediaManageUi
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void imgMinimize_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
     }
 }
