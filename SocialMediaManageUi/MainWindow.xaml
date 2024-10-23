@@ -13,6 +13,10 @@
         Height="730" 
         Width="1280">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         
     </Grid>
 </Window>
